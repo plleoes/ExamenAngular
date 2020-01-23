@@ -1,0 +1,3 @@
+<p>El Empleado: {{empleados[2].employee_name}} tiene un salario de: {{empleados[2].employee_salary}}</p>
+<br><input type="number" name="ipc" [(ngModel)]="ipc" (change)="calcular(ipc)"><button (click)='calcular(ipc)'>Consulta salario incrementado por el ipc dado</button>
+<br><p>Salario resultante: {{nuevosalario}}</p>
